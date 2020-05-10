@@ -17,6 +17,7 @@
 		445AA16724679E0F0094431F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 445AA16624679E0F0094431F /* main.m */; };
 		445AA17124679E0F0094431F /* BookStoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 445AA17024679E0F0094431F /* BookStoreTests.m */; };
 		445AA17C24679E0F0094431F /* BookStoreUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 445AA17B24679E0F0094431F /* BookStoreUITests.m */; };
+		445AA18B24679F370094431F /* Customer.m in Sources */ = {isa = PBXBuildFile; fileRef = 445AA18A24679F370094431F /* Customer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		445AA17724679E0F0094431F /* BookStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		445AA17B24679E0F0094431F /* BookStoreUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookStoreUITests.m; sourceTree = "<group>"; };
 		445AA17D24679E0F0094431F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		445AA18924679F370094431F /* Customer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Customer.h; sourceTree = "<group>"; };
+		445AA18A24679F370094431F /* Customer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Customer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				445AA16224679E0F0094431F /* LaunchScreen.storyboard */,
 				445AA16524679E0F0094431F /* Info.plist */,
 				445AA16624679E0F0094431F /* main.m */,
+				445AA18924679F370094431F /* Customer.h */,
+				445AA18A24679F370094431F /* Customer.m */,
 			);
 			path = BookStore;
 			sourceTree = "<group>";
@@ -273,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				445AA16724679E0F0094431F /* main.m in Sources */,
+				445AA18B24679F370094431F /* Customer.m in Sources */,
 				445AA15324679E0D0094431F /* AppDelegate.m in Sources */,
 				445AA15924679E0D0094431F /* MasterViewController.m in Sources */,
 				445AA15624679E0D0094431F /* SceneDelegate.m in Sources */,
